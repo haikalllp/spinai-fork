@@ -1,5 +1,11 @@
 # create-spinai-app
 
+## 2.0.12
+
+### Patch Changes
+
+- f0275ed: add vercel serverless agent
+
 ## 2.0.11
 
 ### Patch Changes

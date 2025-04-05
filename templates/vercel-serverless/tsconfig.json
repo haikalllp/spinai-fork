@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "moduleResolution": "node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": false,
+    "module": "commonjs",
+    "outDir": ".vercel/output/functions/_api"
+  },
+  "include": ["actions/**/*", "api/**/*.ts"],
+  "exclude": ["templates", "dist", "node_modules"]
+}

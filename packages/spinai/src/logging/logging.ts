@@ -64,6 +64,7 @@ export class LoggingService {
       // console.log(`[LOG ${params.step_type}]`, JSON.stringify(body, null, 2));
 
       try {
+        console.log({ body });
         const response = await fetch(this.loggingEndpoint, {
           method: "POST",
           headers: {

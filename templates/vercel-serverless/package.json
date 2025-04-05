@@ -1,0 +1,28 @@
+{
+  "name": "vercel-serverless",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch dev-server.ts",
+    "vercel-dev": "vercel dev",
+    "build": "tsc --outDir dist",
+    "start": "node api/index.js",
+    "lint": "eslint \"api/**/*.ts*\"",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.1.15",
+    "@vercel/node": "^5.1.14",
+    "ai": "^4.1.66",
+    "dotenv": "^16.4.7",
+    "spinai": "*",
+    "tsx": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "5.5.4"
+  }
+}

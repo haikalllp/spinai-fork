@@ -32,10 +32,10 @@ const TEMPLATES: Template[] = [
     repo: "fallomai/spinai/templates/basic-mcp-agent",
   },
   {
-    name: "Mintlify docs updater",
+    name: "Vercel Serverless Agent",
     description:
-      "An agent that automatically updates Mintlify documentation based on PRs",
-    repo: "fallomai/spinai/templates/mintlify-docs-updater",
+      "A serverless agent template for Vercel with a basic calculator agent",
+    repo: "fallomai/spinai/templates/vercel-serverless",
   },
   {
     name: "github reviewer",
@@ -47,6 +47,12 @@ const TEMPLATES: Template[] = [
     description:
       "An AI Agent that uses @smithery-ai/github's MPC to execute actions without needing any custom code at all",
     repo: "fallomai/spinai/templates/github-mcp-agent",
+  },
+  {
+    name: "Mintlify docs updater",
+    description:
+      "An agent that automatically updates Mintlify documentation based on PRs",
+    repo: "fallomai/spinai/templates/mintlify-docs-updater",
   },
   // Add new templates here like:
   // {
