@@ -4,6 +4,14 @@ import { ModelCostsMap } from "../costs.types";
  * Cost per 1M tokens in USD for OpenAI models
  */
 export const OPENAI_MODEL_COSTS: ModelCostsMap = {
+  // GPT-4.1 Models
+  "gpt-4.1": { input: 2.0, output: 8.0 },
+  "gpt-4.1-2025-04-14": { input: 2.0, output: 8.0 },
+  "gpt-4.1-mini": { input: 0.4, output: 1.6 },
+  "gpt-4.1-mini-2025-04-14": { input: 0.4, output: 1.6 },
+  "gpt-4.1-nano": { input: 0.1, output: 0.4 },
+  "gpt-4.1-nano-2025-04-14": { input: 0.1, output: 0.4 },
+
   // GPT-4.5 Models
   "gpt-4.5-preview": { input: 75, output: 150 },
   "gpt-4.5-preview-2025-02-27": { input: 75, output: 150 },
